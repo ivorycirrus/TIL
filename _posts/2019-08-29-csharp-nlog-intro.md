@@ -28,7 +28,7 @@ NLog의 환경설정은 다음 3가지가 있다.
 
 ## 환경설정 샘플 (App.config 안에 하는 방법)
 App.config 또는 web.config 안에 설정을 두는 경우 두 가지를 고려해야 한다.
-* ```<configSectrions>```안의 설정정보는 ```<configuration>```대그의 가장 윗쪽에 나와야 된다. 기존에 뭔가 설정항목이 있는 경우 ```<section>```태그의 내용만 추가한다.
+* ```<configSectrions>```안의 설정정보는 ```<configuration>```태그의 가장 윗쪽에 나와야 된다. 기존에 뭔가 설정항목이 있는 경우 ```<section>```태그의 내용만 추가한다.
 * ```<nlog>```태그 안쪽이 실제 NLog의 설정을 기록하는 영역이다.
 
 ```xml
@@ -61,7 +61,7 @@ App.config 또는 web.config 안에 설정을 두는 경우 두 가지를 고려
 
 * Target : 어디에 로그를 저장할 건지 로그를 저장하는 대상이다. [NLog 문서에는 현재 84가지의 Target 지원목록](https://nlog-project.org/config/?tab=targets)이 있다. 위 설정에서는 파일과 콘솔에 출력하도록 설정되어 있다.
 * Rule : 로그의 수준별 출력정책을 설정하는 곳이다. 로그는 낮은 레벨부터 Trace - Debug - Info - Warn - Error - Fatal 순으로 레벨이 부여되어 있다. writeTo는 해당 범위의 로그를 출력할 Target를 지정하는 부분이며 복수의 Target를 지정하려면 쉼표 ( , )로 구분해서 지정하면 된다.
-* Layout : 로그의 출력형식이다. 위의 기본설정예시에는 없지만, target 태그에 layout 속성으로 로그의 출력형식을 지정할 수 있다.[ ]사용가능한 옵션은 여기 NLog 문서를 참고](https://nlog-project.org/config/?tab=layout-renderers) 하자.
+* Layout : 로그의 출력형식이다. 위의 기본설정예시에는 없지만, target 태그에 layout 속성으로 로그의 출력형식을 지정할 수 있다. [사용가능한 옵션은 여기 NLog 문서를 참고](https://nlog-project.org/config/?tab=layout-renderers) 하자.
 
 ## File Target 의 기간별/최대용량별 로그 아카이빙
 

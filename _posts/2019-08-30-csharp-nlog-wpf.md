@@ -102,7 +102,7 @@ Custom Target를 만들고, 이를 이용해서 TextBox에 로그메세지를 �
 프로젝트에 NLogCustomTarget.cs파일을 새로 만든다음 다음과 같이 내용을 기록한다.
 * TargetWithLayout을 상속받는 클래스를 생성하며, Target attribute에 해당 타겟의 이름을 적어준다.
 * Write함수는 rule로 필터링 된 다음 해당 타겟에 로그를 기록할 때마다 불리는 함수이다. 이 안에서 로그이벤트를 전파하는 코드를 작성하면된다.
-* delegate 호출시 null인 경우를 고려해서 ```?.Inboke``` 와 같은 형식으로 호출하는 편이 안전하다.
+* delegate 호출시 null인 경우를 고려해서 ```?.Invoke``` 와 같은 형식으로 호출하는 편이 안전하다.
 
 ```csharp
 using NLog;
@@ -113,7 +113,7 @@ namespace WpfNLog
     [Target("WpfTarget")]
     public class NLogCustomTarget : TargetWithLayout
     {
-        // 로그 이벤트를 전바할 델리게이트 
+        // 로그 이벤트를 전파할 델리게이트 
         public delegate void LogEventDelegate(string message);
         public LogEventDelegate LogEventListener;
 

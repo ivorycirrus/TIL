@@ -32,7 +32,7 @@ module.exports = (sequelize, DataTypes) => {
 
 # 문제 해결
 
-### _id 컬럼이 없다는문제
+### id 컬럼이 없다는문제
 
 sequelize는 1개의 primary key를 필요로 한다. primary key가 없는 경우 id 컬럼을 암시적으로 생성해서 primary key로 지정한다.
 
@@ -49,7 +49,7 @@ sequelize 는 데이터 생성시와 수정시 시간을 기록하는 createdAt 
 
 이 컬럼은 모델 생성시 ```timestamp``` 옵션으로 사용유무를 결정 할 수 있으며, 사용하고자 할 경우 컬럼 이름을 사용자가 임의로 지정해 줄 수 있는 기능을 지원한다.
 
-### 수형 테이블명을 사용하는 문제
+### 복수형 문법의 테이블명을 사용하는 문제
 
 sequelize 는 테이블 이름을 기본적으로 복수형으로 생성한다.
 

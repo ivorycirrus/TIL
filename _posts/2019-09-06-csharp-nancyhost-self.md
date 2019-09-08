@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Win10에서 Nancy로 SelfHosting시 접속오류"
-tags: [csharp, nancy, netsh]
+tags: [c#, nancy, netsh]
 comments: true
 ---
 

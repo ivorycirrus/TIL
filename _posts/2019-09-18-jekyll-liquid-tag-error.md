@@ -9,9 +9,9 @@ comments: true
 
 오류 메세지는 다음과 같다.
 
-| Subject: Page build failed
-| The page build failed with the following error:
-| The tag `fake_tag` in `index.html` is not a recognized Liquid tag.
+> Subject: Page build failed
+> The page build failed with the following error:
+> The tag `fake_tag` in `index.html` is not a recognized Liquid tag.
 
 # 그래서 Liquid Tag 라는게 뭔가?
 

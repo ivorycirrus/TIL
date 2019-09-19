@@ -5,7 +5,7 @@ tags: [git, line ending]
 comments: true
 ---
 
-MacOS, Linux 와 Windows 환경 모두에서 개발시 줄바꿈 문자 때문에 영향이 없는 코드 까지 dirty check에 걸리는 경우가 있다. 이런 경우 commit diff를 보는데 정작 변경점이 있는 부분이 눈에 확 띄지 않아 불편함이 이민저만이 아니다. 대부분의 IDE는 Line Ending 처리를 설정 할 수 있으므로 프로젝트 환경에 맞게 통일해서 쓸 수 있지만, git 설정으로도 이이 대해 대응 할 수 있는 방법이 있어 정리 해 둔다.
+MacOS, Linux 와 Windows 환경 모두에서 개발시 줄바꿈 문자 때문에 영향이 없는 코드 까지 dirty check에 걸리는 경우가 있다. 이런 경우 commit diff를 보는데 정작 변경점이 있는 부분이 눈에 확 띄지 않아 불편함이 이만저만이 아니다. 대부분의 IDE는 Line Ending 처리를 설정 할 수 있으므로 프로젝트 환경에 맞게 통일해서 쓸 수 있지만, git 설정으로도 이이 대해 대응 할 수 있는 방법이 있어 정리 해 둔다.
 
 # Line Ending
 

@@ -13,7 +13,24 @@ Windows에서 ```cmd```명령으로 콘솔 실행 후 한글이 포함된 git lo
 
 ```
 c:\Data\Temp\study-excersize-codes>git log -n 3
-commit 7f774eef1e010419455e2dbfbc7cfdb4f109b382 (HEAD -> master, origin/master, origin/HEAD)                                                   Merge: ef61566 938f9a3                                                                                                                         Author: ivorycirrus <ivorycirrus@gmail.com>                                                                                                    Date:   Thu Aug 3 19:48:09 2017 +0900                                                                                                                                                                                                                                                             Merge branch 'master' of https://github.com/ivorycirrus/study                                                                                                                                                                                                                             commit ef615662398b330ff766de420d22f7704ba7ef36                                                                                                Author: ivorycirrus <ivorycirrus@gmail.com>                                                                                                    Date:   Thu Aug 3 19:47:33 2017 +0900                                                                                                                                                                                                                                                             4<EC><9E><A5> <EC><8B><A0><EA><B2><BD><EB><A7><9D><ED><95><99><EC><8A><B5> <EB><81><9D><EA><B9><8C><EC><A7><80> <EC><A0><95><EB><A6><AC>                                                                                                                                                  commit 938f9a3b92262beef9b0de2b664d95a31bdf1019                                                                                                Author: Pilmo Kang <ivorycirrus@gmail.com>                                                                                                     Date:   Thu Aug 3 15:15:57 2017 +0900                                                                                                                                                                                                                                                             Update README.md                                                                                                                           
+commit 7f774eef1e010419455e2dbfbc7cfdb4f109b382 (HEAD -> master, origin/master, origin/HEAD)
+Merge: ef61566 938f9a3
+Author: ivorycirrus <ivorycirrus@gmail.com>
+Date:   Thu Aug 3 19:48:09 2017 +0900
+
+Merge branch 'master' of https://github.com/ivorycirrus/study
+
+commit ef615662398b330ff766de420d22f7704ba7ef36
+Author: ivorycirrus <ivorycirrus@gmail.com>
+Date:   Thu Aug 3 19:47:33 2017 +0900
+
+4<EC><9E><A5> <EC><8B><A0><EA><B2><BD><EB><A7><9D><ED><95><99><EC><8A><B5> <EB><81><9D><EA><B9><8C><EC><A7><80> <EC><A0><95><EB><A6><AC>
+
+commit 938f9a3b92262beef9b0de2b664d95a31bdf1019
+Author: Pilmo Kang <ivorycirrus@gmail.com>
+Date:   Thu Aug 3 15:15:57 2017 +0900
+
+Update README.md                                                                                                                           
 c:\Data\Temp\study-excersize-codes>     
 ```
 
@@ -32,7 +49,24 @@ c:\> set LC_ALL=ko_KR.UTF-8
 c:\Data\Temp\study-excersize-codes>set LC_ALL=ko_KR.UTF-8
 
 c:\Data\Temp\study-excersize-codes>git log -n 3
-commit 7f774eef1e010419455e2dbfbc7cfdb4f109b382 (HEAD -> master, origin/master, origin/HEAD)                                                   Merge: ef61566 938f9a3                                                                                                                         Author: ivorycirrus <ivorycirrus@gmail.com>                                                                                                    Date:   Thu Aug 3 19:48:09 2017 +0900                                                                                                                                                                                                                                                             Merge branch 'master' of https://github.com/ivorycirrus/study                                                                                                                                                                                                                             commit ef615662398b330ff766de420d22f7704ba7ef36                                                                                                Author: ivorycirrus <ivorycirrus@gmail.com>                                                                                                    Date:   Thu Aug 3 19:47:33 2017 +0900                                                                                                                                                                                                                                                             4장 신경망학습 끝까지 정리                                                                                                                                                                                                                                                                commit 938f9a3b92262beef9b0de2b664d95a31bdf1019                                                                                                Author: Pilmo Kang <ivorycirrus@gmail.com>                                                                                                     Date:   Thu Aug 3 15:15:57 2017 +0900                                                                                                                                                                                                                                                             Update README.md
+commit 7f774eef1e010419455e2dbfbc7cfdb4f109b382 (HEAD -> master, origin/master, origin/HEAD)
+Merge: ef61566 938f9a3
+Author: ivorycirrus <ivorycirrus@gmail.com>
+Date:   Thu Aug 3 19:48:09 2017 +0900
+
+Merge branch 'master' of https://github.com/ivorycirrus/study 
+
+commit ef615662398b330ff766de420d22f7704ba7ef36
+Author: ivorycirrus <ivorycirrus@gmail.com>
+Date:   Thu Aug 3 19:47:33 2017 +0900
+
+4장 신경망학습 끝까지 정리
+
+commit 938f9a3b92262beef9b0de2b664d95a31bdf1019
+Author: Pilmo Kang <ivorycirrus@gmail.com>
+Date:   Thu Aug 3 15:15:57 2017 +0900
+
+Update README.md
 
 c:\Data\Temp\study-excersize-codes>
 ```

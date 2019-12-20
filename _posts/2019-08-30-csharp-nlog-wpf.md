@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C#에서 NLog 메세지를 WPF의 TextBox에 출력하는 방법"
-tags: [c#, WPF, lolgger, NLog]
+tags: [c#, WPF, logger, NLog]
 comments: true
 ---
 

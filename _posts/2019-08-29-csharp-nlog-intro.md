@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C# 로그 라이브러리 NLog 시작하기"
-tags: [c#, lolgger, NLog]
+tags: [c#, logger, NLog]
 comments: true
 ---
 

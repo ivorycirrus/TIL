@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Node.JS의 이벤트 리스터에 타임아웃 적용하기"
+title: "Node.JS의 이벤트 리스너에 타임아웃 적용하기"
 tags: [node, event, timeout]
 comments: true
 ---

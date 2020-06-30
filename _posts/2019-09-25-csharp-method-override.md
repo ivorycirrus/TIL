@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C#의 method override 와 virtual 키워드"
-tags: [csharp, oop, inheritance]
+tags: [c#, oop, inheritance]
 comments: true
 ---
 

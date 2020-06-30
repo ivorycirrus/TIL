@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C#의 Assembly 버전 충돌 문제"
-tags: [csharp, assembly, ziparchive]
+tags: [c#, assembly, ziparchive]
 comments: true
 ---
 

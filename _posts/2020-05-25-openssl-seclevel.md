@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ubuntu 20.04 openssl의 key길이 문제(SECLEVEL)"
-tags: [linux, openssl, https, node.js, security]
+tags: [linux, openssl, https, node, security]
 comments: true
 ---
 

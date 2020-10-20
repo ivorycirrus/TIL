@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "AWS health check"
-tags: [aws, target group, health check]
+title: "AWS 502 error on ALB"
+tags: [aws, alb, 502, node.js]
 comments: true
 ---
 
